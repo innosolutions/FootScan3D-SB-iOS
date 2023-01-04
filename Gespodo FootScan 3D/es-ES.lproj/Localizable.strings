@@ -1,0 +1,227 @@
+/* (No Comment) */
+"Annuler" = "Cancelar";
+
+/* (No Comment) */
+"Attention" = "Cuidado";
+
+/* (No Comment) */
+"Attention!" = "¡Cuidado!";
+
+/* (No Comment) */
+"Bug sur l'application Android FootScan 3D" = "Problema en la aplicación IOS FootScan 3D";
+
+/* (No Comment) */
+"Decrivez votre problème avec un maximum de détails afin de permettre au support de mieux vous aider" = "Describa su problema con el mayor detalle posible para que podamos ayudarle mejor";
+
+/* (No Comment) */
+"Démarrer un scan" = "Escaner";
+
+/* (No Comment) */
+"Enfant" = "Niño";
+
+/* (No Comment) */
+"Erreur" = "Error";
+
+/* (No Comment) */
+"Erreur inconnue" = "Error desconocido";
+
+/* (No Comment) */
+"Erreur lors de la réinitalisation de votre mot de passe" = "Error al restablecer su contraseña ";
+
+/* (No Comment) */
+"Erreur:" = "Error:";
+
+/* (No Comment) */
+"Erreur!" = "¡Error!";
+
+/* (No Comment) */
+"Êtes-vous certain de décliner ? Il ne sera dès lors pas possible d'utiliser le service 3D pour ce patient" = "¿Está seguro que quiere rechazarlo? No será posible utilizar el servicio 3D para este paciente";
+
+/* (No Comment) */
+"Félicitation!" = "¡Felicidades!";
+
+/* (No Comment) */
+"Femme" = "Mujer";
+
+/* (No Comment) */
+"Footwear professionals" = "Calzado profesional";
+
+/* (No Comment) */
+"Homme" = "Hombre";
+
+/* (No Comment) */
+"Hospital" = "Centro médico u hospital";
+
+/* (No Comment) */
+"https://www.gespodo.com/fr/CGU_FOOTSCAN3D" = "https://www.gespodo.com/fr/CGU_FOOTSCAN3D";
+
+/* (No Comment) */
+"https://www.gespodo.com/fr/conditions-dutilisation-confidentialite" = "https://www.gespodo.com/fr/conditions-dutilisation-confidentialite";
+
+/* (No Comment) */
+"https://www.gespodo.com/fr/data-privacy" = "https://www.gespodo.com/fr/data-privacy";
+
+/* (No Comment) */
+"Identifiant ou code à 6 chiffres" = "Identificación o código de demo de 6 cifras";
+
+/* (No Comment) */
+"Medical Device shop" = "Tienda de material médico";
+
+/* (No Comment) */
+"Menu d'aide" = "Menu de ayuda";
+
+/* (No Comment) */
+"Mot de passe" = "Contraseña";
+
+/* (No Comment) */
+"Non listé" = "Unlisted";
+
+/* No comment provided by engineer. */
+"Non, annuler" = "No, cancelar";
+
+/* (No Comment) */
+"Nursing Home" = "Residencias de ancianos";
+
+/* (No Comment) */
+"ok" = "ok";
+
+/* (No Comment) */
+"OK" = "OK";
+
+/* (No Comment) */
+"Orthotics prosthetics Specialist" = "Ortopeda";
+
+/* (No Comment) */
+"Other" = "Otro";
+
+/* No comment provided by engineer. */
+"Oui" = "Si";
+
+/* (No Comment) */
+"Pas de message d'erreur" = "No hay mensaje de error";
+
+/* (No Comment) */
+"Patient" = "Paciente";
+
+/* (No Comment) */
+"Pharmacist" = "Farmacéutico";
+
+/* (No Comment) */
+"Podiatrist / DPM" = "Podólogo";
+
+/* (No Comment) */
+"Podiatrist Student" = "Estudiante de podología";
+
+/* Class = "UITextView"; text = "Pour la conception et la fabrication 3D de ses semelles"; ObjectID = "Zbp-WM-yHs"; */
+"Pour la conception et la fabrication 3D de ses semelles" = "Para la concepción y la fabricación 3D de sus plantillas";
+
+/* (No Comment) */
+"Premier message d'aide" = "Primer mensaje de ayuda";
+
+/* (No Comment) */
+"QR code invalide. Veuillez scanner un QR code correct" = "QR código, inválido. Escanee un código QR correcto";
+
+/* (No Comment) */
+"Refuser" = "Rechazar";
+
+/* No comment provided by engineer. */
+"Réinitialisation du Scanner" = "Reinicio del Escáner";
+
+/* (No Comment) */
+"Réinitialisation Mot de Passe" = "Restablecer contraseña";
+
+/* (No Comment) */
+"Scan non supporté" = "Escáner no compatible";
+
+/* (No Comment) */
+"Souhait d'amélioration de l'app (iOS)" = "Desea mejorar la aplicación (iOS)";
+
+/* (No Comment) */
+"Une erreur est survenue lors de l'upload de votre fichier sur nos serveur, merci de contacter le service de Gespodo afin de leur signaler le problème." = "Apareció un error en la subida de su archivo en nuestros servidores, por favor contacte con el servicio de Gespodo para señalar este problema.";
+
+/* (No Comment) */
+"Une erreur est survenue lors du téléversment de votre fichier. Veuillez contacter Gespodo pour reporter cette erreur." = "Apareció un error en la carga de su archivo. Por favor, contacte a Gespodo para señalar este error.";
+
+/* (No Comment) */
+"Vos Patients" = "Sus Pacientes";
+
+/* (No Comment) */
+"Votre compte démo Gespodo à bien été créé, veuillez consulter vos emails afin d'obtenir vos accès" = "Su cuenta demo Gespodo ha sido creada, por favor consulte sus emails con tal de obtener su acceso.";
+
+/* (No Comment) */
+"Votre identifiant ou votre mot de passe est incorrect. Veuillez réessayer avec des identifiants correctes" = "Su identificante o contraseña es incorrecta. Por favor, intentelo con un identificante correcto";
+
+/* (No Comment) */
+"Votre mot de passe à été réinitialisé avec succès, veuillez consulter vos emails pour obtenir vos nouveau accès" = "Su contraseña ha sido modificada con éxito, por favor, consulte su email para obtener su nuevo acceso";
+
+/* (No Comment) */
+"Votre patient à été créé avec succès" = "Su paciente ha sido creado con éxito";
+
+/* (No Comment) */
+"Votre token d'authentification n'est plus valide, vous aller être redirigé sur la page de login" = "Su autentificación no es válida, será redirigido a la página de inicio";
+
+/* (No Comment) */
+"Your device does not support scanning a code from an item. Please use a device with a camera." = "Su aparato no permite escanear el código. Por favor, utilice un aparato con cámara.";
+
+
+
+// For UiTextView
+
+/* (No Comment) */
+"Se souvenir de moi" = "Acordarse de mi";
+
+/* (No Comment) */
+"Vous allez vous connecter en tant que: " = "Usted se conecta como:";
+
+/* Class = "UITextView"; text = "La vie privée de votre patient nous tient à coeur. Pour répondre aux exigences du RGPD, veuillez recueillir son consentement :"; ObjectID = "SoY-XU-97a"; */
+"La vie privée de votre patient nous tient à coeur. Pour répondre aux exigences du RGPD, veuillez recueillir son consentement :" = "La protección de datos de su paciente nos preocupa. Para responder a las exigencias de RGPD, por favor de su consentimiento...";
+
+/* Class = "UITextView"; text = "Pour la conception et la fabrication 3D de ses semelles"; ObjectID = "Zbp-WM-yHs"; */
+"Pour la conception et la fabrication 3D de ses semelles" = "Para la concepción y la fabricación 3D de sus plantillas";
+
+/* Class = "UITextView"; text = "Pour le suivi médical de son traitement (email de suivi à 6 et 12 semaines)"; ObjectID = "RLC-eq-oDC"; */
+"Pour le suivi médical de son traitement (email de suivi à 6 et 12 semaines)" = "Para el seguimiento médico de su tratamiento (email de seguimiento en 6 y 12 semanas)";
+
+/* Class = "UITextView"; text = "Pour que le patient reçoive ses emails de suivi, veuillez entrer son email :"; ObjectID = "3Sc-HA-gqD"; */
+"Pour que le patient reçoive ses emails de suivi, veuillez entrer son email :" = "Para que el paciente reciba sus emails de seguimiento, por favor añada su email:";
+
+"Conditions Générales d’utilisation" = "Condiciones generales de utilización";
+"Cliquez sur le lien correspondant à votre requête:" = "Clique sobre el link correspondiente a su solicitud";
+"Scannez le QR code fournis sur la plateforme Gespodo pour commencer le scan"="Escanee el código QR facilitado en la plataforma Gespodo para comenzar el escaneo. ";
+
+"Le nombre de photos suivant va être téléchargé sur la plateforme : " = "Las siguientes fotos se cargarán en la plataforma:";
+"Vous pouvez ajouter une photo avec votre scan 3D" = "Puede añadir una foto con su escáner 3D";
+"Sauvegarde du modèle..." = "Guardar el modelo...";
+
+"Terminer" = "Completo";
+
+"Si vouz avez oublié votre mot de passe, indiquez-nous votre email afin que nous puissions vous en envoyer un nouveau." = "Si ha olvidado su contraseña, indíquenoslo vía email con el fin de que podamos enviarle una nueva";
+
+/* Accepter les conditions d'utilisation */
+"general_condition" = "Aceptar las condiciones de uso";
+
+/* (No Comment) */
+"Erreur de segmentation" = "La segmentación del pie falló";
+
+/* (No Comment) */
+"Le scan est incomplet. Veuillez annuler le scan et recommencer." = "El escaneo está incompleto. Restablezca el escaneo y vuelva a intentarlo.";
+"Success" = "Genial";
+"Name" = "Apellido";
+"Firstname" = "Nombre";
+"Day" = "Día";
+"Month" = "Mes";
+"Year" = "Año";
+"Email" = "Email";
+"PatientGender" = "Sexo del paciente";
+"Fonction" = "Función";
+
+
+"Ajouter un ou plusieurs document à votre dossier patient (Pédigraphie, empreinte 2D, photos,...)" = "Añade una o varias fotos al archivo de tu paciente";
+
+"take-pedigraphy-picture" = "Pedigrafía (2D)";
+"take-prescription-picture" = "Informe";
+"take-equipment-picture" = "Equipamiento";
+"skip-scans" = "No hay escáneres 3D";
+"other-picture" = "Añadir otra foto";
+"take-foot-picture" = "Foto del pie";
+"go-pro" = "Acceder a Gespodo Pro";

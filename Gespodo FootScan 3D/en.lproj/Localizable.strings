@@ -1,0 +1,232 @@
+/* (No Comment) */
+"Annuler" = "Cancel";
+
+/* (No Comment) */
+"Attention" = "Be careful";
+
+/* (No Comment) */
+"Attention!" = "Be careful!";
+
+/* (No Comment) */
+"Bug sur l'application Android FootScan 3D" = "Bug on the iOS Footscan APP";
+
+/* (No Comment) */
+"Ceci effacera le model en cours de san, êtes vous sûr de vouloir le supprimer?" = "This action will delete the current scan, are you sure to delete it?";
+
+/* (No Comment) */
+"Cliquez sur le lien correspondant à votre requête:" = "Click on the suitable link:";
+
+/* (No Comment) */
+"Conditions Générales d’utilisation" = "User Licence's General Conditions";
+
+/* (No Comment) */
+"Decrivez votre problème avec un maximum de détails afin de permettre au support de mieux vous aider" = "Describe your problem with maximum details to enable us to help you. Take eventually a screen shot.";
+
+/* (No Comment) */
+"Démarrer un scan" = "SCAN";
+
+/* (No Comment) */
+"Enfant" = "Child";
+
+/* (No Comment) */
+"Erreur" = "Error";
+
+/* (No Comment) */
+"Erreur inconnue" = "Unknown error";
+
+/* (No Comment) */
+"Erreur lors de la réinitalisation de votre mot de passe" = "Error with Password initialization";
+
+/* (No Comment) */
+"Erreur:" = "Error:";
+
+/* (No Comment) */
+"Erreur!" = "Error!";
+
+/* (No Comment) */
+"Êtes-vous certain de décliner ? Il ne sera dès lors pas possible d'utiliser le service 3D pour ce patient" = "If you decline, you won't be allowed to use the service for this patient";
+
+/* (No Comment) */
+"Félicitation!" = "Congratulation!";
+
+/* (No Comment) */
+"Femme" = "Female";
+
+/* (No Comment) */
+"Footwear professionals" = "Footwear professionals";
+
+/* Accepter les conditions d'utilisation */
+"general_condition" = "Agree to our Terms of Service";
+
+/* (No Comment) */
+"Homme" = "Male";
+
+/* (No Comment) */
+"Hospital" = "Hospital";
+
+/* (No Comment) */
+"https://www.gespodo.com/fr/CGU_FOOTSCAN3D" = "https://www.gespodo.com/en-gb/licencescanner3d";
+
+/* (No Comment) */
+"https://www.gespodo.com/fr/conditions-dutilisation-confidentialite" = "https://www.gespodo.com/fr/conditions-dutilisation-confidentialite";
+
+/* (No Comment) */
+"https://www.gespodo.com/fr/data-privacy" = "https://www.gespodo.com/fr/data-privacy";
+
+/* (No Comment) */
+"Identifiant ou code à 6 chiffres" = "Your ID or 6 digits demo code";
+
+/* Class = "UITextView"; text = "La vie privée de votre patient nous tient à coeur. Pour répondre aux exigences du RGPD, veuillez recueillir son consentement :"; ObjectID = "SoY-XU-97a"; */
+"La vie privée de votre patient nous tient à coeur. Pour répondre aux exigences du RGPD, veuillez recueillir son consentement :" = "The privacy of your patient's data is important. To comply with EU GDPR regulation, please collect your patient's consent:";
+
+/* (No Comment) */
+"Medical Device shop" = "Medical Device shop";
+
+/* (No Comment) */
+"Menu d'aide" = "Help menu";
+
+/* (No Comment) */
+"Mot de passe" = "Password";
+
+/* (No Comment) */
+"Non listé" = "Unlisted";
+
+/* No comment provided by engineer. */
+"Non, annuler" = "No, cancel";
+
+/* (No Comment) */
+"Nursing Home" = "Nursing Home";
+
+/* (No Comment) */
+"ok" = "ok";
+
+/* (No Comment) */
+"OK" = "OK";
+
+/* (No Comment) */
+"Orthotics prosthetics Specialist" = "Orthotics prosthetics Specialist";
+
+/* (No Comment) */
+"Other" = "Other";
+
+/* No comment provided by engineer. */
+"Oui" = "Yes";
+
+/* (No Comment) */
+"Pas de message d'erreur" = "No error message";
+
+/* (No Comment) */
+"Patient" = "Patient";
+
+/* (No Comment) */
+"Pharmacist" = "Pharmacist";
+
+/* (No Comment) */
+"Podiatrist / DPM" = "Podiatrist / DPM";
+
+/* (No Comment) */
+"Podiatrist Student" = "Podiatrist Student";
+
+/* Class = "UITextView"; text = "Pour la conception et la fabrication 3D de ses semelles"; ObjectID = "Zbp-WM-yHs"; */
+"Pour la conception et la fabrication 3D de ses semelles" = "For the design and production of his custom 3D insoles";
+
+/* Class = "UITextView"; text = "Pour le suivi médical de son traitement (email de suivi à 6 et 12 semaines)"; ObjectID = "RLC-eq-oDC"; */
+"Pour le suivi médical de son traitement (email de suivi à 6 et 12 semaines)" = "For the follow up of your patient's treatment";
+
+/* Class = "UITextView"; text = "Pour que le patient reçoive ses emails de suivi, veuillez entrer son email :"; ObjectID = "3Sc-HA-gqD"; */
+"Pour que le patient reçoive ses emails de suivi, veuillez entrer son email :" = "Add patient's email if you want to share treatment follow up initiatives with him:";
+
+/* (No Comment) */
+"Premier message d'aide" = "First support message";
+
+/* (No Comment) */
+"QR code invalide. Veuillez scanner un QR code correct" = "Invalid QRcode - please scan a correct GESPODO QR code";
+
+/* (No Comment) */
+"Refuser" = "Decline";
+
+/* No comment provided by engineer. */
+"Réinitialisation du Scanner" = "Reinitialization of the scanner";
+
+/* (No Comment) */
+"Réinitialisation Mot de Passe" = "Password recovery";
+
+/* (No Comment) */
+"Sauvegarde du modèle..." = "Model saving...";
+
+/* (No Comment) */
+"Scan non supporté" = "Unsupported scan";
+
+/* (No Comment) */
+"Scannez le QR code fournis sur la plateforme Gespodo pour commencer le scan" = "Scan the QR Code from your patient's card on www.labo.gespodo.com to initiate the 3D Scan session";
+
+/* (No Comment) */
+"Se souvenir de moi" = "Remember me";
+
+/* (No Comment) */
+"Si vouz avez oublié votre mot de passe, indiquez-nous votre email afin que nous puissions vous en envoyer un nouveau." = "In case of lost password, please provide your recovery email adress.";
+
+/* (No Comment) */
+"Souhait d'amélioration de l'app (iOS)" = "How can we improve (iOS wishlist)";
+
+/* (No Comment) */
+"Terminer" = "Complete";
+
+/* (No Comment) */
+"Une erreur est survenue lors de l'upload de votre fichier sur nos serveur, merci de contacter le service de Gespodo afin de leur signaler le problème." = "Error when  uploading your 3D files on GESPODO PRO - please contact bug@gespodo.com with details and ideally screenshot";
+
+/* (No Comment) */
+"Une erreur est survenue lors du téléversment de votre fichier. Veuillez contacter Gespodo pour reporter cette erreur." = "Error when  dowloading your 3D files - please contact bug@gespodo.com with details and ideally screenshot";
+
+/* (No Comment) */
+"Vos Patients" = "Your patients";
+
+/* (No Comment) */
+"Votre compte démo Gespodo à bien été créé, veuillez consulter vos emails afin d'obtenir vos accès" = "Your demo account is created, please check your email to get your access code and instructions.";
+
+/* (No Comment) */
+"Votre identifiant ou votre mot de passe est incorrect. Veuillez réessayer avec des identifiants correctes" = "Your ID or password is not correct. Thanks to retry or reset your password.";
+
+/* (No Comment) */
+"Votre mot de passe à été réinitialisé avec succès, veuillez consulter vos emails pour obtenir vos nouveau accès" = "Your password has been reset, please consult your emails to get instructions";
+
+/* (No Comment) */
+"Votre patient à été créé avec succès" = "your patient has been created";
+
+/* (No Comment) */
+"Votre token d'authentification n'est plus valide, vous aller être redirigé sur la page de login" = "Your authentification token is outdated, Please log in to a fresh new session";
+
+/* (No Comment) */
+"Vous pouvez ajouter une photo avec votre scan 3D" = "Please add one or multiple pictures to the patient's card";
+
+/* (No Comment) */
+"Your device does not support scanning a code from an item. Please use a device with a camera." = "Your device does not support scanning a code from an item. Please use a device with a camera.";
+
+"Vous allez vous connecter en tant que: " = "You will be connected as :";
+
+"Le nombre de photos suivant va être téléchargé sur la plateforme : " = "Number of pictures to be downloaded on the platform:";
+
+/* (No Comment) */
+"Erreur de segmentation" = "Foot Segmentation failed";
+
+/* (No Comment) */
+"Le scan est incomplet. Veuillez annuler le scan et recommencer." = "The scan is incomplete. Please reset the scan and retry.";
+"Success" = "Success";
+"Name" = "Name";
+"Firstname" = "First name";
+"Day" = "Day";
+"Month" = "Month";
+"Year" = "year";
+"Email" = "Email";
+"Patient Gender" = "Patient Gender";
+"Fonction" = "Role";
+
+
+"Ajouter un ou plusieurs document à votre dossier patient (Pédigraphie, empreinte 2D, photos,...)" = "Add one or multiple document to the folder of your patient";
+"take-pedigraphy-picture" = "Podograph";
+"take-prescription-picture" = "Prescription form";
+"take-equipment-picture" = "Corrections drawing";
+"take-foot-picture" = "Foot picture";
+"skip-scans" = "Skip 3D scans";
+"other-picture" = "Add any other picture";
+"go-pro" = "Access to Gespodo Pro";

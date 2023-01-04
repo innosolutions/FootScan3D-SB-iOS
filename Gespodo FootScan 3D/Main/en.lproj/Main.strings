@@ -1,0 +1,131 @@
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0Lh-IV-l3F"; */
+"0Lh-IV-l3F.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1uI-L6-IZ3"; */
+"1uI-L6-IZ3.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Remonter un Bug"; ObjectID = "1um-ku-W7m"; */
+"1um-ku-W7m.normalTitle" = "Log a Bug";
+
+/* Class = "UIButton"; normalTitle = "Scanner l'autre pied"; ObjectID = "ADl-9T-M4w"; */
+"ADl-9T-M4w.normalTitle" = "Scan the other foot";
+
+/* Class = "UITextField"; placeholder = "Prenom"; ObjectID = "Apb-le-CSQ"; */
+"Apb-le-CSQ.placeholder" = "First Name";
+
+/* Class = "UIButton"; normalTitle = "Conditions d'utilisation"; ObjectID = "ATO-0s-Wdo"; */
+"ATO-0s-Wdo.normalTitle" = "Users Licence";
+
+/* Class = "UITextField"; placeholder = "Fonction"; ObjectID = "Aur-h6-BO9"; */
+"Aur-h6-BO9.placeholder" = "Function";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "B0l-u0-dfu"; */
+"B0l-u0-dfu.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Scanner sans code"; ObjectID = "bJZ-tO-TdT"; */
+"bJZ-tO-TdT.normalTitle" = "Scan without code";
+
+/* Class = "UIButton"; normalTitle = "S'INSCRIRE"; ObjectID = "C5E-vR-Lgc"; */
+"C5E-vR-Lgc.normalTitle" = "SIGN UP";
+
+/* Class = "UIButton"; normalTitle = "ACCEPTER"; ObjectID = "Cnm-id-RC1"; */
+"Cnm-id-RC1.normalTitle" = "APPROVE";
+
+/* Class = "UIButton"; normalTitle = "SCAN avec code QR"; ObjectID = "CRK-9j-KG7"; */
+"CRK-9j-KG7.normalTitle" = "SCAN with  Patient's QRCode";
+
+/* Class = "UIButton"; normalTitle = "Commander ma 1ere paire gratuite (offre réservée aux podologues)"; ObjectID = "Ear-Tb-m41"; */
+"Ear-Tb-m41.normalTitle" = "Get my 3D models (.stl)";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "ekS-zJ-GW2"; */
+"ekS-zJ-GW2.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Le scan 3D de cette fiche patient est terminé"; ObjectID = "FYS-i1-1Fq"; */
+"FYS-i1-1Fq.text" = "The 3D scan session for this patient is completed";
+
+/* Class = "UITextField"; placeholder = "Nom"; ObjectID = "Gm0-ag-Pc3"; */
+"Gm0-ag-Pc3.placeholder" = "Name";
+
+/* Class = "UIButton"; normalTitle = "S'ENREGISTRER"; ObjectID = "iJF-mS-239"; */
+"iJF-mS-239.normalTitle" = "REGISTER";
+
+/* Class = "UIButton"; normalTitle = "ENVOYER"; ObjectID = "iQt-cz-V70"; */
+"iQt-cz-V70.normalTitle" = "SEND";
+
+/* Class = "UIButton"; normalTitle = "Charte Vie Privée"; ObjectID = "Jdq-uA-UmA"; */
+"Jdq-uA-UmA.normalTitle" = "Privacy Policy";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "jOx-DX-eHf"; */
+"jOx-DX-eHf.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Scanner"; ObjectID = "laL-t9-64f"; */
+"laL-t9-64f.normalTitle" = "Scan";
+
+/* Class = "UIButton"; normalTitle = "< Back"; ObjectID = "M9R-zI-xqg"; */
+"M9R-zI-xqg.normalTitle" = "< Back";
+
+/* Class = "UITextField"; placeholder = "Numéro de téléphone"; ObjectID = "mIn-uN-2Qw"; */
+"mIn-uN-2Qw.placeholder" = "Mobile phone";
+
+/* Class = "UIButton"; normalTitle = "Clôturer le scan 3D pour ce patient"; ObjectID = "MJZ-40-phw"; */
+"MJZ-40-phw.normalTitle" = "Complete the 3D scan for this patient";
+
+/* Class = "UIButton"; normalTitle = "RETOUR"; ObjectID = "my2-sI-NdG"; */
+"my2-sI-NdG.normalTitle" = "BACK";
+
+/* Class = "UIButton"; normalTitle = "REFUSER"; ObjectID = "nik-Ne-7Kq"; */
+"nik-Ne-7Kq.normalTitle" = "DECLINE";
+
+/* Class = "UIButton"; normalTitle = "Plus d'informations ?"; ObjectID = "nOY-Lm-Tol"; */
+"nOY-Lm-Tol.normalTitle" = "Want to know more?";
+
+/* Class = "UIButton"; normalTitle = "AJOUTER UNE IMAGE"; ObjectID = "q0l-FJ-dDH"; */
+"q0l-FJ-dDH.normalTitle" = "ADD A PICTURE";
+
+/* Class = "UIButton"; normalTitle = "Vos souhaits d’amélioration"; ObjectID = "rx7-LU-uHw"; */
+"rx7-LU-uHw.normalTitle" = "Make a wish ! (your improvement request)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s3C-fU-izd"; */
+"s3C-fU-izd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Votre adresse email valide est nécessaire pour récupérer le code d’activation"; ObjectID = "sVw-SZ-eSc"; */
+"sVw-SZ-eSc.text" = "A valid email adress is required to get the activation code and instructions";
+
+/* Class = "UIButton"; normalTitle = "SE CONNECTER"; ObjectID = "TWo-Ci-TJr"; */
+"TWo-Ci-TJr.normalTitle" = "SIGN IN";
+
+/* Class = "UIButton"; normalTitle = "Notice d’utilisation Footscan3D"; ObjectID = "Ujf-18-qN1"; */
+"Ujf-18-qN1.normalTitle" = "User guide - FOOTSCAN3D";
+
+/* Class = "UIButton"; normalTitle = "Mot de passe oublié"; ObjectID = "uka-sO-Pak"; */
+"uka-sO-Pak.normalTitle" = "Password lost";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VCT-ja-25R"; */
+"VCT-ja-25R.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "AJOUTER UN SCAN 3D"; ObjectID = "Vsp-8Y-Tdg"; */
+"Vsp-8Y-Tdg.normalTitle" = "ADD a 3D SCAN";
+
+/* Class = "UILabel"; text = "Aide"; ObjectID = "WiQ-Yo-ITB"; */
+"WiQ-Yo-ITB.text" = "Support";
+
+/* Class = "UILabel"; text = "Uncalibrated"; ObjectID = "xSM-OH-9TT"; */
+"xSM-OH-9TT.text" = "Uncalibrated";
+
+/* Class = "UIButton"; normalTitle = "Demarrer un nouveau scan 3D"; ObjectID = "XSy-67-Z5P"; */
+"XSy-67-Z5P.normalTitle" = "Start a new 3D Scan";
+
+/* Class = "UIButton"; normalTitle = "Revenir au menu principal"; ObjectID = "y4W-tH-952"; */
+"y4W-tH-952.normalTitle" = "Back to main menu";
+
+/* Class = "UIButton"; normalTitle = "Changer d'utilisateur"; ObjectID = "yNI-uo-TF3"; */
+"yNI-uo-TF3.normalTitle" = "Shift User ID";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zLn-tF-RTb"; */
+"zLn-tF-RTb.normalTitle" = "Button";
+
+/* Class = "UIButton"; accessibilityLabel = "rightFootSelected"; ObjectID = "ZX9-bj-5jQ"; */
+"ZX9-bj-5jQ.accessibilityLabel" = "rightFootSelected";
+
+/* Class = "UIButton"; normalTitle = " Accéder à Gespodo Pro"; ObjectID = "WK6-I1-WeF"; */
+"WK6-I1-WeF.normalTitle" = "Access to GESPODO PRO";

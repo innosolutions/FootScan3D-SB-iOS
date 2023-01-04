@@ -1,0 +1,39 @@
+/* Class = "UIButton"; normalTitle = "Créer un nouveau patient"; ObjectID = "4Qp-vv-nJi"; */
+"4Qp-vv-nJi.normalTitle" = "Crear un nuevo paciente";
+
+/* Class = "UITextField"; placeholder = "Prénom"; ObjectID = "61D-T3-G6h"; */
+"61D-T3-G6h.placeholder" = "Nombre";
+
+/* Class = "UITextField"; placeholder = "Mois"; ObjectID = "90B-z2-BWw"; */
+"90B-z2-BWw.placeholder" = "Mes";
+
+/* Class = "UITextField"; placeholder = "Nom"; ObjectID = "hDp-ZU-wAM"; */
+"hDp-ZU-wAM.placeholder" = "Apellido";
+
+/* Class = "UITextField"; placeholder = "Jour"; ObjectID = "jL4-vR-I3G"; */
+"jL4-vR-I3G.placeholder" = "Día";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LYi-JK-pOR"; */
+"LYi-JK-pOR.text" = "Etiqueta de calidad";
+
+/* Class = "UIButton"; normalTitle = "Liste de vos patients"; ObjectID = "Mbb-pv-aGv"; */
+"Mbb-pv-aGv.normalTitle" = "Lista de sus pacientes";
+
+/* Class = "UITextField"; placeholder = "Annee"; ObjectID = "OBC-fY-7wA"; */
+"OBC-fY-7wA.placeholder" = "Año";
+
+/* Class = "UITextField"; placeholder = "Sexe du patient"; ObjectID = "pGS-e2-nS0"; */
+"pGS-e2-nS0.placeholder" = "Sexo del paciente";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RZl-oi-1ZO"; */
+"RZl-oi-1ZO.text" = "Etiqueta de calidad";
+
+/* Class = "UIButton"; normalTitle = "Enregistrer le patient"; ObjectID = "Tds-Bu-iY7"; */
+"Tds-Bu-iY7.normalTitle" = "Guardar paciente";
+
+/* Class = "UILabel"; text = "Date de naissance:"; ObjectID = "uCg-M6-fwv"; */
+"uCg-M6-fwv.text" = "Fecha de nacimiento";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "WHc-kB-wmQ"; */
+"WHc-kB-wmQ.placeholder" = "Email";
+

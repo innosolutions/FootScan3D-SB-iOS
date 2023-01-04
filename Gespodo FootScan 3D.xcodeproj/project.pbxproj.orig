@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270CE11723BF4D7100B97723 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270CE11923BF4D7100B97723 /* Localizable.strings */; };
+		270CE12223BF69D600B97723 /* OnTheMove.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270CE12423BF69D600B97723 /* OnTheMove.storyboard */; };
+		270D50E221F0CA8500C38D17 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D50E121F0CA8500C38D17 /* QRScannerViewController.swift */; };
+		270D50E421F0D4C100C38D17 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270D50E321F0D4C100C38D17 /* AVFoundation.framework */; };
+		2714BD60228D812E00EFAFBA /* PodoOnTheMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BD5F228D812E00EFAFBA /* PodoOnTheMove.swift */; };
+		27161D6B229EAD9E00737722 /* ChoosePodoOnTheMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27161D6A229EAD9E00737722 /* ChoosePodoOnTheMoveViewController.swift */; };
+		273BD5DB21EDD1EE003AFDDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BD5DA21EDD1EE003AFDDA /* AppDelegate.swift */; };
+		273BD5DD21EDD1EE003AFDDA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BD5DC21EDD1EE003AFDDA /* LoginViewController.swift */; };
+		273BD5E021EDD1EE003AFDDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273BD5DE21EDD1EE003AFDDA /* Main.storyboard */; };
+		273BD5E221EDD1F0003AFDDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273BD5E121EDD1F0003AFDDA /* Assets.xcassets */; };
+		273BD5E521EDD1F0003AFDDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273BD5E321EDD1F0003AFDDA /* LaunchScreen.storyboard */; };
+		273BD5F021EDD1F0003AFDDA /* Gespodo_FootScan_3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BD5EF21EDD1F0003AFDDA /* Gespodo_FootScan_3DTests.swift */; };
+		273BD5FB21EDD1F1003AFDDA /* Gespodo_FootScan_3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BD5FA21EDD1F1003AFDDA /* Gespodo_FootScan_3DUITests.swift */; };
+		273BD60921EDF22D003AFDDA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273BD60821EDF22D003AFDDA /* Colors.xcassets */; };
+		275CFE1C229C1897009E3D22 /* PatientListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CFE1B229C1897009E3D22 /* PatientListTableViewController.swift */; };
+		275CFE1E229C1FEB009E3D22 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CFE1D229C1FEB009E3D22 /* Patient.swift */; };
+		276D354B222D6D7100FA75E9 /* GdprViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276D354A222D6D7100FA75E9 /* GdprViewController.swift */; };
+		277CDC932281861A007E37EE /* astrivis_troidee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277CDC902281861A007E37EE /* astrivis_troidee.framework */; };
+		277CDC942281861A007E37EE /* astrivis_scan3d.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277CDC912281861A007E37EE /* astrivis_scan3d.framework */; };
+		277E10AC2216C40A007F2418 /* RememberMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277E10AB2216C40A007F2418 /* RememberMeViewController.swift */; };
+		2781E5702208487D006E84A9 /* TakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2781E56F2208487D006E84A9 /* TakePictureViewController.swift */; };
+		2781E5722208A1E7006E84A9 /* EndScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2781E5712208A1E7006E84A9 /* EndScanViewController.swift */; };
+		2781E576220DC39A006E84A9 /* DemoEndScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2781E575220DC39A006E84A9 /* DemoEndScanViewController.swift */; };
+		278C9FFB21EE45B300E09FD5 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C9FFA21EE45B300E09FD5 /* ForgotPasswordViewController.swift */; };
+		278C9FFD21EE464100E09FD5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C9FFC21EE464100E09FD5 /* Utils.swift */; };
+		2794D9D4220201F200CF1923 /* AddPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794D9D3220201F200CF1923 /* AddPictureViewController.swift */; };
+		279DF148223293940039AC63 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DF147223293940039AC63 /* CustomAlertView.swift */; };
+		279DF14A223296500039AC63 /* CustomAlertViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DF149223296500039AC63 /* CustomAlertViewDelegate.swift */; };
+		27BF541D21F9C143000EFA6C /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF541C21F9C143000EFA6C /* SubscriptionViewController.swift */; };
+		27D402CF22170C05008D7A07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27D402CE22170C05008D7A07 /* GoogleService-Info.plist */; };
+		27D621F921F7272400F12C6E /* Foot3DScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D621F821F7272400F12C6E /* Foot3DScanViewController.swift */; };
+		27DD7EE922818DA300D14378 /* astrivis_scan3d.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277CDC912281861A007E37EE /* astrivis_scan3d.framework */; };
+		27DD7EEA22818DA300D14378 /* astrivis_scan3d.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 277CDC912281861A007E37EE /* astrivis_scan3d.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27DD7EEC22818DA300D14378 /* astrivis_foot3d.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 277CDC8F2281861A007E37EE /* astrivis_foot3d.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27DD7EEE22818DA400D14378 /* astrivis_troidee.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 277CDC902281861A007E37EE /* astrivis_troidee.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9161678BF9F2D61D1C1ED2FC /* Pods_Gespodo_FootScan_3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F32BC39277399670C67C4D /* Pods_Gespodo_FootScan_3D.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		273BD5EC21EDD1F0003AFDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273BD5CF21EDD1EE003AFDDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273BD5D621EDD1EE003AFDDA;
+			remoteInfo = "Gespodo FootScan 3D";
+		};
+		273BD5F721EDD1F1003AFDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273BD5CF21EDD1EE003AFDDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273BD5D621EDD1EE003AFDDA;
+			remoteInfo = "Gespodo FootScan 3D";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27DD7EEF22818DA400D14378 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27DD7EEC22818DA300D14378 /* astrivis_foot3d.framework in Embed Frameworks */,
+				27DD7EEE22818DA400D14378 /* astrivis_troidee.framework in Embed Frameworks */,
+				27DD7EEA22818DA300D14378 /* astrivis_scan3d.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18F32BC39277399670C67C4D /* Pods_Gespodo_FootScan_3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gespodo_FootScan_3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		270CE11823BF4D7100B97723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		270CE12323BF69D600B97723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OnTheMove.storyboard; sourceTree = "<group>"; };
+		270CE13023BF70CB00B97723 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		270D50E121F0CA8500C38D17 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		270D50E321F0D4C100C38D17 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		27120BF72214820200168D96 /* Gespodo FootScan 3D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gespodo FootScan 3D.entitlements"; sourceTree = "<group>"; };
+		2714BD5F228D812E00EFAFBA /* PodoOnTheMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodoOnTheMove.swift; sourceTree = "<group>"; };
+		27161D6A229EAD9E00737722 /* ChoosePodoOnTheMoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePodoOnTheMoveViewController.swift; sourceTree = "<group>"; };
+		27288EEE2417C4B200D3A849 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		27288EEF2417C4BE00D3A849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		27288EF72417C96C00D3A849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		27288EF82417C96C00D3A849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		27288EFC2417C9E000D3A849 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/OnTheMove.storyboard; sourceTree = "<group>"; };
+		27288F042417CB5400D3A849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/OnTheMove.strings; sourceTree = "<group>"; };
+		273BD5D721EDD1EE003AFDDA /* Gespodo FootScan 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gespodo FootScan 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273BD5DA21EDD1EE003AFDDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		273BD5DC21EDD1EE003AFDDA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		273BD5DF21EDD1EE003AFDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		273BD5E121EDD1F0003AFDDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		273BD5E421EDD1F0003AFDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		273BD5EB21EDD1F0003AFDDA /* Gespodo FootScan 3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gespodo FootScan 3DTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273BD5EF21EDD1F0003AFDDA /* Gespodo_FootScan_3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gespodo_FootScan_3DTests.swift; sourceTree = "<group>"; };
+		273BD5F121EDD1F0003AFDDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273BD5F621EDD1F1003AFDDA /* Gespodo FootScan 3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gespodo FootScan 3DUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273BD5FA21EDD1F1003AFDDA /* Gespodo_FootScan_3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gespodo_FootScan_3DUITests.swift; sourceTree = "<group>"; };
+		273BD5FC21EDD1F1003AFDDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273BD60821EDF22D003AFDDA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		275CFE1B229C1897009E3D22 /* PatientListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListTableViewController.swift; sourceTree = "<group>"; };
+		275CFE1D229C1FEB009E3D22 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		276D354A222D6D7100FA75E9 /* GdprViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GdprViewController.swift; sourceTree = "<group>"; };
+		277CDC8F2281861A007E37EE /* astrivis_foot3d.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = astrivis_foot3d.framework; path = Astrivis/src/ios/libs/astrivis_foot3d.framework; sourceTree = "<group>"; };
+		277CDC902281861A007E37EE /* astrivis_troidee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = astrivis_troidee.framework; path = Astrivis/src/ios/libs/astrivis_troidee.framework; sourceTree = "<group>"; };
+		277CDC912281861A007E37EE /* astrivis_scan3d.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = astrivis_scan3d.framework; path = Astrivis/src/ios/libs/astrivis_scan3d.framework; sourceTree = "<group>"; };
+		277E10AB2216C40A007F2418 /* RememberMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememberMeViewController.swift; sourceTree = "<group>"; };
+		2781E56F2208487D006E84A9 /* TakePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePictureViewController.swift; sourceTree = "<group>"; };
+		2781E5712208A1E7006E84A9 /* EndScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScanViewController.swift; sourceTree = "<group>"; };
+		2781E575220DC39A006E84A9 /* DemoEndScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoEndScanViewController.swift; sourceTree = "<group>"; };
+		278C9FFA21EE45B300E09FD5 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		278C9FFC21EE464100E09FD5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		278C9FFE21EF72C700E09FD5 /* Gespodo FootScan 3D.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Gespodo FootScan 3D.xcodeproj"; sourceTree = "<group>"; };
+		2794D9D3220201F200CF1923 /* AddPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPictureViewController.swift; sourceTree = "<group>"; };
+		279DF147223293940039AC63 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		279DF149223296500039AC63 /* CustomAlertViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewDelegate.swift; sourceTree = "<group>"; };
+		27BF541C21F9C143000EFA6C /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		27D402CE22170C05008D7A07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27D621F821F7272400F12C6E /* Foot3DScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foot3DScanViewController.swift; sourceTree = "<group>"; };
+		27EBD2192417DC8900EB372A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		27EBD21B2417E46F00EB372A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		4502DF492774363229CA104D /* Pods-Gespodo FootScan 3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gespodo FootScan 3D.debug.xcconfig"; path = "Target Support Files/Pods-Gespodo FootScan 3D/Pods-Gespodo FootScan 3D.debug.xcconfig"; sourceTree = "<group>"; };
+		65E9F642241A3F11002517C2 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		65E9F643241A3F11002517C2 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/OnTheMove.strings"; sourceTree = "<group>"; };
+		65E9F644241A3F11002517C2 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Main.strings"; sourceTree = "<group>"; };
+		BFC95FBA222F6D6FB9EA37DA /* Pods-Gespodo FootScan 3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gespodo FootScan 3D.release.xcconfig"; path = "Target Support Files/Pods-Gespodo FootScan 3D/Pods-Gespodo FootScan 3D.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273BD5D421EDD1EE003AFDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277CDC932281861A007E37EE /* astrivis_troidee.framework in Frameworks */,
+				277CDC942281861A007E37EE /* astrivis_scan3d.framework in Frameworks */,
+				27DD7EE922818DA300D14378 /* astrivis_scan3d.framework in Frameworks */,
+				270D50E421F0D4C100C38D17 /* AVFoundation.framework in Frameworks */,
+				9161678BF9F2D61D1C1ED2FC /* Pods_Gespodo_FootScan_3D.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273BD5E821EDD1F0003AFDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273BD5F321EDD1F1003AFDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270CE11023BF4BA300B97723 /* PodoOnTheMove */ = {
+			isa = PBXGroup;
+			children = (
+				270CE12423BF69D600B97723 /* OnTheMove.storyboard */,
+				27161D6A229EAD9E00737722 /* ChoosePodoOnTheMoveViewController.swift */,
+				2714BD5F228D812E00EFAFBA /* PodoOnTheMove.swift */,
+				275CFE1B229C1897009E3D22 /* PatientListTableViewController.swift */,
+				275CFE1D229C1FEB009E3D22 /* Patient.swift */,
+			);
+			path = PodoOnTheMove;
+			sourceTree = "<group>";
+		};
+		270CE11123BF4BAE00B97723 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				27D621F821F7272400F12C6E /* Foot3DScanViewController.swift */,
+				277E10AB2216C40A007F2418 /* RememberMeViewController.swift */,
+				273BD5DC21EDD1EE003AFDDA /* LoginViewController.swift */,
+				278C9FFA21EE45B300E09FD5 /* ForgotPasswordViewController.swift */,
+				2781E56F2208487D006E84A9 /* TakePictureViewController.swift */,
+				270D50E121F0CA8500C38D17 /* QRScannerViewController.swift */,
+				273BD5DE21EDD1EE003AFDDA /* Main.storyboard */,
+				279DF149223296500039AC63 /* CustomAlertViewDelegate.swift */,
+				279DF147223293940039AC63 /* CustomAlertView.swift */,
+				276D354A222D6D7100FA75E9 /* GdprViewController.swift */,
+				2781E575220DC39A006E84A9 /* DemoEndScanViewController.swift */,
+				2781E5712208A1E7006E84A9 /* EndScanViewController.swift */,
+				2794D9D3220201F200CF1923 /* AddPictureViewController.swift */,
+				27BF541C21F9C143000EFA6C /* SubscriptionViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		270CE11323BF4BF800B97723 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				278C9FFC21EE464100E09FD5 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		273BD5CE21EDD1EE003AFDDA = {
+			isa = PBXGroup;
+			children = (
+				270CE13023BF70CB00B97723 /* README.md */,
+				278C9FFE21EF72C700E09FD5 /* Gespodo FootScan 3D.xcodeproj */,
+				273BD5D921EDD1EE003AFDDA /* Gespodo FootScan 3D */,
+				273BD5EE21EDD1F0003AFDDA /* Gespodo FootScan 3DTests */,
+				273BD5F921EDD1F1003AFDDA /* Gespodo FootScan 3DUITests */,
+				273BD5D821EDD1EE003AFDDA /* Products */,
+				912C5E2B08742FDB9548067E /* Frameworks */,
+				71A94635E4DD5630C61D65B1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		273BD5D821EDD1EE003AFDDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				273BD5D721EDD1EE003AFDDA /* Gespodo FootScan 3D.app */,
+				273BD5EB21EDD1F0003AFDDA /* Gespodo FootScan 3DTests.xctest */,
+				273BD5F621EDD1F1003AFDDA /* Gespodo FootScan 3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		273BD5D921EDD1EE003AFDDA /* Gespodo FootScan 3D */ = {
+			isa = PBXGroup;
+			children = (
+				270CE11323BF4BF800B97723 /* Utils */,
+				270CE11123BF4BAE00B97723 /* Main */,
+				270CE11023BF4BA300B97723 /* PodoOnTheMove */,
+				27120BF72214820200168D96 /* Gespodo FootScan 3D.entitlements */,
+				273BD5DA21EDD1EE003AFDDA /* AppDelegate.swift */,
+				27D402CE22170C05008D7A07 /* GoogleService-Info.plist */,
+				273BD60821EDF22D003AFDDA /* Colors.xcassets */,
+				273BD5E121EDD1F0003AFDDA /* Assets.xcassets */,
+				273BD5E321EDD1F0003AFDDA /* LaunchScreen.storyboard */,
+				270CE11923BF4D7100B97723 /* Localizable.strings */,
+				27288EF02417C4BE00D3A849 /* Info.plist */,
+			);
+			path = "Gespodo FootScan 3D";
+			sourceTree = "<group>";
+		};
+		273BD5EE21EDD1F0003AFDDA /* Gespodo FootScan 3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				273BD5EF21EDD1F0003AFDDA /* Gespodo_FootScan_3DTests.swift */,
+				273BD5F121EDD1F0003AFDDA /* Info.plist */,
+			);
+			path = "Gespodo FootScan 3DTests";
+			sourceTree = "<group>";
+		};
+		273BD5F921EDD1F1003AFDDA /* Gespodo FootScan 3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				273BD5FA21EDD1F1003AFDDA /* Gespodo_FootScan_3DUITests.swift */,
+				273BD5FC21EDD1F1003AFDDA /* Info.plist */,
+			);
+			path = "Gespodo FootScan 3DUITests";
+			sourceTree = "<group>";
+		};
+		278C9FFF21EF72C700E09FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A94635E4DD5630C61D65B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4502DF492774363229CA104D /* Pods-Gespodo FootScan 3D.debug.xcconfig */,
+				BFC95FBA222F6D6FB9EA37DA /* Pods-Gespodo FootScan 3D.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		912C5E2B08742FDB9548067E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				277CDC912281861A007E37EE /* astrivis_scan3d.framework */,
+				277CDC8F2281861A007E37EE /* astrivis_foot3d.framework */,
+				277CDC902281861A007E37EE /* astrivis_troidee.framework */,
+				270D50E321F0D4C100C38D17 /* AVFoundation.framework */,
+				18F32BC39277399670C67C4D /* Pods_Gespodo_FootScan_3D.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		273BD5D621EDD1EE003AFDDA /* Gespodo FootScan 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273BD5FF21EDD1F1003AFDDA /* Build configuration list for PBXNativeTarget "Gespodo FootScan 3D" */;
+			buildPhases = (
+				B79CB50980B8CA44E31ADB39 /* [CP] Check Pods Manifest.lock */,
+				273BD5D321EDD1EE003AFDDA /* Sources */,
+				273BD5D421EDD1EE003AFDDA /* Frameworks */,
+				273BD5D521EDD1EE003AFDDA /* Resources */,
+				27DD7EEF22818DA400D14378 /* Embed Frameworks */,
+				27EC5D6022526D0900DC6C60 /* Remove x86_64 architecture from framwork  */,
+				276D35482226D26E00FA75E9 /* ShellScript */,
+				34D51D42F0EDB94C25B6230C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gespodo FootScan 3D";
+			productName = "Gespodo FootScan 3D";
+			productReference = 273BD5D721EDD1EE003AFDDA /* Gespodo FootScan 3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		273BD5EA21EDD1F0003AFDDA /* Gespodo FootScan 3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273BD60221EDD1F1003AFDDA /* Build configuration list for PBXNativeTarget "Gespodo FootScan 3DTests" */;
+			buildPhases = (
+				273BD5E721EDD1F0003AFDDA /* Sources */,
+				273BD5E821EDD1F0003AFDDA /* Frameworks */,
+				273BD5E921EDD1F0003AFDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273BD5ED21EDD1F0003AFDDA /* PBXTargetDependency */,
+			);
+			name = "Gespodo FootScan 3DTests";
+			productName = "Gespodo FootScan 3DTests";
+			productReference = 273BD5EB21EDD1F0003AFDDA /* Gespodo FootScan 3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		273BD5F521EDD1F1003AFDDA /* Gespodo FootScan 3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273BD60521EDD1F1003AFDDA /* Build configuration list for PBXNativeTarget "Gespodo FootScan 3DUITests" */;
+			buildPhases = (
+				273BD5F221EDD1F1003AFDDA /* Sources */,
+				273BD5F321EDD1F1003AFDDA /* Frameworks */,
+				273BD5F421EDD1F1003AFDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273BD5F821EDD1F1003AFDDA /* PBXTargetDependency */,
+			);
+			name = "Gespodo FootScan 3DUITests";
+			productName = "Gespodo FootScan 3DUITests";
+			productReference = 273BD5F621EDD1F1003AFDDA /* Gespodo FootScan 3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		273BD5CF21EDD1EE003AFDDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Gespodo;
+				TargetAttributes = {
+					273BD5D621EDD1EE003AFDDA = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AutoFillCredentialProvider = {
+								enabled = 0;
+							};
+						};
+					};
+					273BD5EA21EDD1F0003AFDDA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 273BD5D621EDD1EE003AFDDA;
+					};
+					273BD5F521EDD1F1003AFDDA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 273BD5D621EDD1EE003AFDDA;
+					};
+				};
+			};
+			buildConfigurationList = 273BD5D221EDD1EE003AFDDA /* Build configuration list for PBXProject "Gespodo FootScan 3D" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				fr,
+				Base,
+				en,
+				"es-ES",
+			);
+			mainGroup = 273BD5CE21EDD1EE003AFDDA;
+			productRefGroup = 273BD5D821EDD1EE003AFDDA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 278C9FFF21EF72C700E09FD5 /* Products */;
+					ProjectRef = 278C9FFE21EF72C700E09FD5 /* Gespodo FootScan 3D.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				273BD5D621EDD1EE003AFDDA /* Gespodo FootScan 3D */,
+				273BD5EA21EDD1F0003AFDDA /* Gespodo FootScan 3DTests */,
+				273BD5F521EDD1F1003AFDDA /* Gespodo FootScan 3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273BD5D521EDD1EE003AFDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273BD5E521EDD1F0003AFDDA /* LaunchScreen.storyboard in Resources */,
+				273BD60921EDF22D003AFDDA /* Colors.xcassets in Resources */,
+				270CE12223BF69D600B97723 /* OnTheMove.storyboard in Resources */,
+				27D402CF22170C05008D7A07 /* GoogleService-Info.plist in Resources */,
+				273BD5E221EDD1F0003AFDDA /* Assets.xcassets in Resources */,
+				270CE11723BF4D7100B97723 /* Localizable.strings in Resources */,
+				273BD5E021EDD1EE003AFDDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273BD5E921EDD1F0003AFDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273BD5F421EDD1F1003AFDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		276D35482226D26E00FA75E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		27EC5D6022526D0900DC6C60 /* Remove x86_64 architecture from framwork  */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Remove x86_64 architecture from framwork ";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name 'astrivis_*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\n# skip thin libs\nif xcrun lipo -info \"${FRAMEWORK_EXECUTABLE_PATH}\" | grep --silent \"Non-fat\"; then\necho \"Framework non-fat, skipping: $FRAMEWORK_EXECUTABLE_NAME\"\ncontinue\nfi\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n";
+		};
+		34D51D42F0EDB94C25B6230C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gespodo FootScan 3D/Pods-Gespodo FootScan 3D-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gespodo FootScan 3D/Pods-Gespodo FootScan 3D-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gespodo FootScan 3D/Pods-Gespodo FootScan 3D-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79CB50980B8CA44E31ADB39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gespodo FootScan 3D-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273BD5D321EDD1EE003AFDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279DF14A223296500039AC63 /* CustomAlertViewDelegate.swift in Sources */,
+				2781E5702208487D006E84A9 /* TakePictureViewController.swift in Sources */,
+				277E10AC2216C40A007F2418 /* RememberMeViewController.swift in Sources */,
+				275CFE1C229C1897009E3D22 /* PatientListTableViewController.swift in Sources */,
+				27161D6B229EAD9E00737722 /* ChoosePodoOnTheMoveViewController.swift in Sources */,
+				2781E5722208A1E7006E84A9 /* EndScanViewController.swift in Sources */,
+				270D50E221F0CA8500C38D17 /* QRScannerViewController.swift in Sources */,
+				2714BD60228D812E00EFAFBA /* PodoOnTheMove.swift in Sources */,
+				276D354B222D6D7100FA75E9 /* GdprViewController.swift in Sources */,
+				2781E576220DC39A006E84A9 /* DemoEndScanViewController.swift in Sources */,
+				27BF541D21F9C143000EFA6C /* SubscriptionViewController.swift in Sources */,
+				273BD5DD21EDD1EE003AFDDA /* LoginViewController.swift in Sources */,
+				275CFE1E229C1FEB009E3D22 /* Patient.swift in Sources */,
+				279DF148223293940039AC63 /* CustomAlertView.swift in Sources */,
+				273BD5DB21EDD1EE003AFDDA /* AppDelegate.swift in Sources */,
+				27D621F921F7272400F12C6E /* Foot3DScanViewController.swift in Sources */,
+				2794D9D4220201F200CF1923 /* AddPictureViewController.swift in Sources */,
+				278C9FFB21EE45B300E09FD5 /* ForgotPasswordViewController.swift in Sources */,
+				278C9FFD21EE464100E09FD5 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273BD5E721EDD1F0003AFDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273BD5F021EDD1F0003AFDDA /* Gespodo_FootScan_3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273BD5F221EDD1F1003AFDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273BD5FB21EDD1F1003AFDDA /* Gespodo_FootScan_3DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273BD5ED21EDD1F0003AFDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273BD5D621EDD1EE003AFDDA /* Gespodo FootScan 3D */;
+			targetProxy = 273BD5EC21EDD1F0003AFDDA /* PBXContainerItemProxy */;
+		};
+		273BD5F821EDD1F1003AFDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273BD5D621EDD1EE003AFDDA /* Gespodo FootScan 3D */;
+			targetProxy = 273BD5F721EDD1F1003AFDDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		270CE11923BF4D7100B97723 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270CE11823BF4D7100B97723 /* en */,
+				27288EEE2417C4B200D3A849 /* fr */,
+				27288EF82417C96C00D3A849 /* en */,
+				65E9F642241A3F11002517C2 /* es-ES */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		270CE12423BF69D600B97723 /* OnTheMove.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270CE12323BF69D600B97723 /* Base */,
+				27288EFC2417C9E000D3A849 /* fr */,
+				27288F042417CB5400D3A849 /* en */,
+				65E9F643241A3F11002517C2 /* es-ES */,
+			);
+			name = OnTheMove.storyboard;
+			sourceTree = "<group>";
+		};
+		27288EF02417C4BE00D3A849 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27288EEF2417C4BE00D3A849 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		273BD5DE21EDD1EE003AFDDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273BD5DF21EDD1EE003AFDDA /* Base */,
+				27EBD2192417DC8900EB372A /* en */,
+				27EBD21B2417E46F00EB372A /* fr */,
+				65E9F644241A3F11002517C2 /* es-ES */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		273BD5E321EDD1F0003AFDDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273BD5E421EDD1F0003AFDDA /* Base */,
+				27288EF72417C96C00D3A849 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		273BD5FD21EDD1F1003AFDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		273BD5FE21EDD1F1003AFDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		273BD60021EDD1F1003AFDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4502DF492774363229CA104D /* Pods-Gespodo FootScan 3D.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 40;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = P922452T2R;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/libs",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Astrivis/src/ios/libs",
+				);
+				INFOPLIST_FILE = "Gespodo FootScan 3D/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gespodo.footScan3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		273BD60121EDD1F1003AFDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC95FBA222F6D6FB9EA37DA /* Pods-Gespodo FootScan 3D.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 40;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = P922452T2R;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/libs",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Astrivis/src/ios/libs",
+				);
+				INFOPLIST_FILE = "Gespodo FootScan 3D/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gespodo.footScan3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		273BD60321EDD1F1003AFDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DB493KR;
+				INFOPLIST_FILE = "Gespodo FootScan 3DTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "b12.Gespodo-FootScan-3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gespodo FootScan 3D.app/Gespodo FootScan 3D";
+			};
+			name = Debug;
+		};
+		273BD60421EDD1F1003AFDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DB493KR;
+				INFOPLIST_FILE = "Gespodo FootScan 3DTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "b12.Gespodo-FootScan-3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gespodo FootScan 3D.app/Gespodo FootScan 3D";
+			};
+			name = Release;
+		};
+		273BD60621EDD1F1003AFDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DB493KR;
+				INFOPLIST_FILE = "Gespodo FootScan 3DUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "b12.Gespodo-FootScan-3DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gespodo FootScan 3D";
+			};
+			name = Debug;
+		};
+		273BD60721EDD1F1003AFDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DB493KR;
+				INFOPLIST_FILE = "Gespodo FootScan 3DUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "b12.Gespodo-FootScan-3DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gespodo FootScan 3D";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273BD5D221EDD1EE003AFDDA /* Build configuration list for PBXProject "Gespodo FootScan 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273BD5FD21EDD1F1003AFDDA /* Debug */,
+				273BD5FE21EDD1F1003AFDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273BD5FF21EDD1F1003AFDDA /* Build configuration list for PBXNativeTarget "Gespodo FootScan 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273BD60021EDD1F1003AFDDA /* Debug */,
+				273BD60121EDD1F1003AFDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273BD60221EDD1F1003AFDDA /* Build configuration list for PBXNativeTarget "Gespodo FootScan 3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273BD60321EDD1F1003AFDDA /* Debug */,
+				273BD60421EDD1F1003AFDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273BD60521EDD1F1003AFDDA /* Build configuration list for PBXNativeTarget "Gespodo FootScan 3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273BD60621EDD1F1003AFDDA /* Debug */,
+				273BD60721EDD1F1003AFDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 273BD5CF21EDD1EE003AFDDA /* Project object */;
+}
